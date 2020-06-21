@@ -1,0 +1,284 @@
+body {
+	min-width: 1200px;
+	margin: 0;
+	font-weight: 400;
+	line-height: 1.5;
+	font-family: Arial, sans-serif;
+}
+h1, h2, h3 {
+	font-weight: 400;
+	font-family: Georgia, serif;
+	color: rgb(84, 84, 84);
+}
+h1 {
+	font-size: 36px;
+}
+p {
+	font-size: 12px;
+	color: rgb(88, 88, 88);
+}
+nav {
+	width: 60%;
+	min-height: 86px;
+	margin: 0 auto;
+	margin-bottom: 5%;
+}
+button {
+	border: solid 2px rgb(241, 205, 179);
+	border-radius: 40px;
+	background-color: rgba(255, 255, 255, 0);
+	font-size: 16px;
+	font-family: Georgia, serif;
+	padding: 18px 50px;
+}
+button:hover {
+	background-color: rgb(241, 205, 179);
+}
+.clear {
+	clear: both;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+}
+.row1 {
+	max-height: 925px;
+	color: white;
+	background-size: cover;
+	background-image: url('images/bg_start.jpg');
+	display: flex;
+	flex-direction: column;
+}
+.row1 p {
+	color: rgb(205, 205, 205);
+}
+.logo {
+	float: left;
+}
+.logo h2 {
+	color: rgb(241, 205, 179);
+	margin-bottom: 0;
+}
+.logo p {
+	margin-top: 0;
+}
+.menu {
+	float: right;
+	margin-top: 19.92px;
+	margin-bottom: 18px;
+	margin-right: 10%; 
+	height: 39px;
+}
+.menu div {
+	float: left;
+	margin-left: 20px;
+	color: rgb(205, 205, 205);
+}
+.menu div p:hover {
+	color: white;
+	border-bottom: solid 2px rgb(241, 205, 179); 
+
+}
+.row1-1 {
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}
+.row1-1-left {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+.row1-1-left h1{
+	color: white;
+}
+.row1-1-left button {
+	margin-top: 37px;
+	color: rgb(241, 205, 179);
+}
+.row1-1-left button:hover {
+	color: black;
+}
+.row1-1-right {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.row1-1-right img{
+	width: 100%;
+}
+.row2 {
+	width: 50%;
+	margin: 5% auto;
+	display: flex;
+	flex-direction: row;
+}
+.row2-left {
+	width: 49%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 2%; 
+}
+.row2-right {
+	width: 49%;
+}
+.row3 {
+	padding: 5% 0;
+	background-color: rgb(246, 246, 246);
+}
+.row3 h1 {
+	text-align: center;
+}
+.row3-1 {
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+.btn {
+	width: 12.5%;
+	margin: auto;
+}
+.last {
+	display: flex;
+	justify-content: flex-end;
+}
+.btn button{
+	padding: 18px 20px;
+}
+.pet-card {
+	background-color: rgb(250, 250, 250);
+	margin:0 1%;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+}
+.pet-card img{
+	width: 80%;
+	margin: 0 auto;
+}
+.pet-card h3 {
+	text-align: center;
+}
+.pet-card div {
+	margin: 0 auto;
+	margin-bottom: 10%;
+}
+.row3-2 {
+	margin-top: 5%;
+	display: flex;
+}
+.row3-2 button {
+	margin: 0 auto;
+}
+.row4 {
+	width: 60%;
+	margin: 5% auto;
+}
+.row4 h1 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 5%; 
+}
+.icon-area {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+.icon {
+	width: 20%;
+}
+.icon img {
+	display: block;
+	margin: 0 auto;
+}
+.icon h3 {
+		text-align: center;
+}
+.row5 {
+	width: 100%;
+	padding: 5% 0;
+	background-color: rgb(246, 246, 246);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.row5-left {
+	width: 27.5%;
+	margin-right: 5%;
+}
+.row5-left img {
+	width: 100%;
+}
+.row5-right {
+	width: 27.5%;
+	min-width: 345px;
+}
+.row5-right h1{
+	margin: 0;
+}
+.account {
+	width: 300px;
+	background-color: rgb(241, 205,179);
+	border-radius: 10px;
+}
+.account img {
+	float: left;
+	margin: 11px 0 11px 14px;
+}
+.account h3 {
+	float: left;
+	color: black;
+	margin: 9px 14px 9px 10px;
+}
+.row6 {
+	background-image: url('images/bg_contact.jpg');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3% 0 0 0;
+}
+.row6 h1{
+	color: white;
+	margin: 0;
+}
+.row6-part {
+	width: 22%;
+}
+.info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 10% 0;
+}
+.info img {
+	flex: 0 0 auto;
+	margin-right: 5%;
+
+}
+.pin img{
+	height: 36px;
+}
+.info h3 {
+	flex: 0 0 auto;
+	margin: 0;
+	color:rgb(241, 205, 179);
+}
+.image img{
+	width: 100%;
+	display: block;
+	position: relative;
+	bottom: 0;
+}
